@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './index.module.css';
 
 export function Index() {
+  console.log('env value', process.env.NEXT_PUBLIC_MY_ENV_VAR);
   /*
    * Replace the elements below with your own.
    *
